@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+  }
+
+  .LazyLoadImage {
+    height: 250px;
+    object-fit: cover;
+     object-position: center;
+     margin-left:auto;
+     margin-right:auto;
+     margin-bottom: 20px;
+     display:block;
+     width:100%;
+     border-radius: 10px;
+
+  }
+
+  tr {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .d-block {
+    height: 600px;
+  }
+  
+  .tabel-fuzzy {
+   margin-top: 30px;
+   color: black;
+   text-align: center;
+   font-size: 30px;
+   font-family: 'oblique', cursive;
+  }
+  .title_daftar{
+  font-family: 'Smooch', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .navbar-brand {
+    font-family: 'Smooch', cursive;
+    font-size: 30px;
+    padding: 12px;
+  }
+
+  .chart-suhu-ruangan {
+    color: green;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'oblique', cursive;
+
+  }
+
+  .chart-pH-air {
+    color: blue;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'oblique', cursive;
+
+  }
+
+  .chart-suhu-air {
+    color: red;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'oblique', cursive;
+
+  }
+
+  .chart-kelembapan {
+    color: black;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'oblique', cursive;
+
+  }
+  
+  
+  .nav-link{
+  font-size: 20px;
+  }
+  
+  .nav_posisi {
+    margin-right: 30px;
+    padding: 12px;
+  }
+  
+  .card {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius:20px;
+    padding:5px;
+    margin-top:40px;
+    background-color:white;
+    border:2px;
+  }
+  
+  .card:hover {
+    background-color:#f5f5f5;
+    border:solid 6px black;
+    border-radius:20px;
+  }
+  
+  
+  .card-text{
+    text-align: justify;
+  }
+  
+  footer{
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: 200px;
+  }
+  .footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer-content h3{
+      font-size: 2.1rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      line-height: 3rem;
+      text-align: center;
+  }
+  .footer-content p{
+      max-width: 500px;
+      margin: 10px ;
+      line-height: 28px;
+      font-size: 14px;
+      color: #cacdd2;
+      text-align: center;
+  }
+  .footer-bottom{
+    background: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer-bottom p{
+    /* float: left; */
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.btn:hover{
+  border-color: black;
+}
+
+  h2 {
+     color: #150050;
+     text-align: center;
+     font-size: 40px;
+     font-family: 'Dancing Script', cursive;
+  
+  }
+  
+  h3 {
+     color: #00a2c6
+  }
+  
+  .btn {
+    margin-right: 5px;
+  }
+  .p-article {
+     text-align: justify;
+     font-size: 25px;
+     font-weight: 400;
+     text-decoration: none;
+     color: #000000;
+     font-family: 'Dancing Script', cursive;
+     padding: 12px;
+  
+  }
+  .p-article-konten {
+     text-align: justify;
+     text-indent: 0.5in;
+     font-size: 20px;
+     font-weight: 400;
+     text-decoration: none;
+     color: #000000;
+     font-family: 'Dancing Script', cursive;
+  }
+   
+  .featured-image {
+     object-fit: cover;
+     object-position: center;
+     margin-left:auto;
+     margin-right:auto;
+     margin-bottom: 20px;
+     display:block;
+     width:50%;
+     border-radius: 10px;
+     height: 250px;
+     border: 2px solid black;
+  }
+  
+
+  .img {
+    height: 250px;
+    object-fit: cover;
+     object-position: center;
+     margin-left:auto;
+     margin-right:auto;
+     margin-bottom: 20px;
+     display:block;
+     width:100%;
+     border-radius: 10px;
+  }
+  
+  /*aside*/
+  
+  #content {
+     width: 75%;
+     margin-left:auto;
+     margin-right:auto;
+  }
+  
+  #content-konten {
+     float: left;
+     width: 75%;
+  }
+  
+  
+  .list_sensor {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     background-color: white;
+    } 
+  
+  .list_sensor:hover {
+    background-color:#f5f5f5;
+    border:solid 6px black;
+    border-radius:20px;
+  }
+  .btn-primary {
+  margin-top: 20px;
+  }
+
+  .h1-header {
+    font-style: italic;
+    align-items: center;
+ }
+ 
+ .p-header {
+    font-style: oblique;
+    align-items: center;
+    
+ }
+ 
+ .jumbotron {
+    font-size: 20px;
+    padding: 40px;
+    background-color:black;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 0px;
+ }
+
+ .image{
+   height: 200px;
+ }
+  .form_adding{
+    margin-top: 40px;
+  }
+  .skip-link {
+    position: absolute;
+    top: -120px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 200;
+    text-decoration: none;
+  }
+  .skip-link:focus {
+    top: 120px;
+  }
+.mark{
+  margin-top: 12px;
+}
+
+.lihat-title {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Bakbak One', cursive;
+}
+
+.coloring {
+  color: #f5f5f5;
+  margin-right: 20px;
+}
+
+.card-foto {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar-brand {
+    font-family: 'Smooch', cursive;
+    font-size: 20px;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .navbar-brand {
+    font-family: 'Smooch', cursive;
+    font-size: 10px;
+    padding: 12px;
+  }
+}
